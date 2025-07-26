@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afnan - Freelance Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Afnan</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    I Build Websites & Discord Bots 
+                    <span class="highlight">That Just Work</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Hi, I'm Afnan! A 15-year-old developer passionate about creating custom solutions 
+                    that make a difference. From sleek websites to powerful Discord bots, I bring your ideas to life.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#portfolio" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="code-content">
+                        <pre><code>const developer = {
+  name: "Afnan",
+  age: 15,
+  skills: ["Web Dev", "Discord Bots"],
+  passion: "Creating awesome stuff"
+};
+
+console.log("Ready to build your project!");</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>What I Do</h2>
+                <p>Specialized services tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>Custom Discord Bots</h3>
+                    <p>Powerful Discord bots with moderation, music, games, and custom features. Built with modern frameworks and reliable hosting.</p>
+                    <ul class="service-features">
+                        <li>Moderation & Security</li>
+                        <li>Music & Entertainment</li>
+                        <li>Custom Commands</li>
+                        <li>24/7 Hosting</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Professional Websites</h3>
+                    <p>Modern, responsive websites that look great on all devices. From simple landing pages to complex web applications.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>Modern UI/UX</li>
+                        <li>Fast Performance</li>
+                        <li>SEO Optimized</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Recent Work</h2>
+                <p>Check out some of my latest projects</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image discord-bot">
+                            <i class="fab fa-discord"></i>
+                            <span>Gaming Bot</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Epic Gaming Bot</h3>
+                        <p>A feature-rich Discord bot with mini-games, leaderboards, and custom commands for gaming communities.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Discord.js</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image website">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span>E-commerce Site</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Tech Store Website</h3>
+                        <p>Modern e-commerce website with product catalog, shopping cart, and secure payment integration.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="placeholder-image discord-bot">
+                            <i class="fas fa-music"></i>
+                            <span>Music Bot</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Groove Music Bot</h3>
+                        <p>High-quality music bot with playlist support, audio filters, and YouTube/Spotify integration.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Discord.js</span>
+                            <span class="tag">FFmpeg</span>
+                            <span class="tag">YouTube API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple Pricing</h2>
+                <p>Choose the perfect package for your project</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic Bot</h3>
+                        <div class="price">$25</div>
+                        <p>Perfect for small communities</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 5 Custom Commands</li>
+                        <li><i class="fas fa-check"></i> Basic Moderation</li>
+                        <li><i class="fas fa-check"></i> Welcome Messages</li>
+                        <li><i class="fas fa-check"></i> 30 Days Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Advanced Bot</h3>
+                        <div class="price">$75</div>
+                        <p>Most popular choice</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited Commands</li>
+                        <li><i class="fas fa-check"></i> Advanced Moderation</li>
+                        <li><i class="fas fa-check"></i> Music & Games</li>
+                        <li><i class="fas fa-check"></i> Custom Dashboard</li>
+                        <li><i class="fas fa-check"></i> 90 Days Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Website Package</h3>
+                        <div class="price">$150</div>
+                        <p>Complete web solution</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Custom Design</li>
+                        <li><i class="fas fa-check"></i> Responsive Layout</li>
+                        <li><i class="fas fa-check"></i> Contact Forms</li>
+                        <li><i class="fas fa-check"></i> SEO Optimization</li>
+                        <li><i class="fas fa-check"></i> 1 Year Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Clients Say</h2>
+                <p>Don't just take my word for it</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Afnan built an amazing Discord bot for our gaming community. It's fast, reliable, and has all the features we needed. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Alex Chen</h4>
+                            <span>Gaming Community Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The website Afnan created for my business exceeded all expectations. Clean design, fast loading, and great mobile experience. Will definitely work with him again!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Small Business Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Incredible work ethic and communication. Afnan delivered our music bot on time and it works perfectly. The attention to detail is impressive for someone so young!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Mike Rodriguez</h4>
+                            <span>Discord Server Admin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Work Together</h2>
+                <p>Ready to bring your ideas to life? Get in touch!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-discord"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Discord</h3>
+                            <p>afnan.studio</p>
+                            <a href="#" class="contact-link">Message on Discord</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/mzzvrwkj" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="basic-bot">Basic Discord Bot</option>
+                                <option value="advanced-bot">Advanced Discord Bot</option>
+                                <option value="website">Website Development</option>
+                                <option value="custom">Custom Project</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <p class="form-note">I usually reply in a few hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2024 Made by Afnan</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
