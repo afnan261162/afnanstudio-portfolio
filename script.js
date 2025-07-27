@@ -335,7 +335,7 @@ document.querySelectorAll('.social-link').forEach(link => {
         
         let url = '#';
         if (platform.includes('instagram')) {
-            url = 'https://instagram.com/afnan.studio';
+            url = 'https://instagram.com/afnan.studio0/';
         } else if (platform.includes('github')) {
             url = 'https://github.com/afnan-dev';
         } else if (platform.includes('discord')) {
